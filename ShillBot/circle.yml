@@ -1,1 +1,5 @@
+envlist = py36
 
+test:
+  override:
+    - python -m unittest discover
